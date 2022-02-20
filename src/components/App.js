@@ -9,7 +9,7 @@ class App extends React.Component{
     getSearchedItem = async (term) => {
         const response  = await unsplash.get("/search/photos", {
             params: {
-                query: term
+                query: term,
                 per_page: 20,
                 // color:'green',
                 // orientation: 'landscape'
