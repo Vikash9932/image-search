@@ -10,7 +10,7 @@ class App extends React.Component{
         const response  = await unsplash.get("/search/photos", {
             params: {
                 query: term
-                // per_page: 15,
+                per_page: 20,
                 // color:'green',
                 // orientation: 'landscape'
             } 
